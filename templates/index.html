@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        {% for project in projects %}
+        <a href="{{ url_for('show_project', project_id=project.id) }}">
+            <h2>{{ project.name }}</h2>
+        </a>
+        {% endfor %}
+
+        <a href="{{ url_for('create_project') }}">New Project</a>
+    </body>
+</html>
