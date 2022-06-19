@@ -1,5 +1,5 @@
 # to_do_list
-This is a tool I created to showcase my abilities in Python, Database and HTML. With it you can better manage a product and optimize time.
+<p>This is a tool I created to showcase my abilities in Python, Database and HTML. With it you can better manage a product and optimize time.</p>
 You can create: 
 "Projects",
 "Stages": such as planning, being done and completed,  
